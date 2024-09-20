@@ -13,7 +13,7 @@ st.set_page_config(
     # layout='wide'
 )
 # Paths
-LOCAL_VECTOR_STORE_DIR = "C:\\Users\\Abir\\Documents\\capstone project\\Data\\final_chroma"
+LOCAL_VECTOR_STORE_DIR = "final_chroma"
 def load_documents_from_chroma(api_key):
     # Initialize Chroma vector store
     vectordb = Chroma(
